@@ -57,7 +57,7 @@ src/main/
 │ ├── dto/ # 数据传输对象（LoginResult）
 │ ├── exception/ # 自定义业务异常（BusinessException）
 │ └── util/ # 工具类（DBUtil）
-├── resources/ # 资源文件（暂空）
+├── resources/ # 资源文件
 ├── webapp/
 │ ├── WEB-INF/
 │ │ ├── views/ # JSP视图（侧边栏、课程页、我的课表等）
