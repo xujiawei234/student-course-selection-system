@@ -1,0 +1,48 @@
+# ========== 编译输出 ==========
+# Maven 构建生成的目录（核心！必须忽略）
+target/
+out/
+bin/
+
+# ========== IDE 配置文件 ==========
+# IntelliJ IDEA（如果你用过）
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# Eclipse / Spring Tool Suite
+.classpath
+.project
+.settings/
+.metadata/
+
+# VS Code（你正在用的）
+.vscode/
+*.code-workspace
+
+# NetBeans
+nbproject/
+nb-configuration.xml
+build/
+
+# ========== 操作系统垃圾文件 ==========
+*.log
+*.tmp
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# ========== 本地环境配置（含敏感信息） ==========
+# 如果你有本地配置文件，比如数据库连接池配置
+application-local.properties
+application-dev.properties
+*.local.properties
+
+# Maven 本地仓库（千万别上传）
+repository/
+
+# 忽略本地配置文件
+src/main/resources/config.properties
